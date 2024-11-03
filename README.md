@@ -2,13 +2,11 @@
 Python | Time Series | Arima Model
 
 
-#Time Series Forecasting for Sales Data
-
-#Overview
+# -Overview
 
 This project aims to forecast future sales data using a time series approach. The model uses the Seasonal AutoRegressive Integrated Moving Average (SARIMA) method to predict monthly sales for a given product over the next 12 months. The dataset contains historical monthly sales data for a set of products, and the goal is to create a reliable forecast that can be used for future planning and decision-making.
 
-#Steps Involved
+# -Steps Involved
 
 Data Preprocessing: The dataset, which contains sales data for different products, is read from a CSV file. The 'Date' column is converted into a datetime format and set as the index. The sales data is then resampled to monthly intervals, filling any missing values with zeros.
 
@@ -22,7 +20,7 @@ Model Fitting: The SARIMA model is fitted to the training data using the optimal
 
 Forecasting: The model is used to generate a 12-month forecast of future sales. The forecasted results are visualized, along with confidence intervals to represent the uncertainty in the predictions.
 
-#Requirements
+# -Requirements
 
 Python 3.6+
 
